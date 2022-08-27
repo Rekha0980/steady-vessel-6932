@@ -1,5 +1,6 @@
 import { Box, Button, Heading,Input,Text,Flex, Spacer, Image } from "@chakra-ui/react"
 import Navbar from "./Navbar"
+import VideoJS from "./Video"
 
 function HomePage(){
     return(
@@ -7,7 +8,7 @@ function HomePage(){
      <Navbar/>
      <div className="vd">
 
-     
+     <VideoJS/>
      <Box maxW="800px" mx="auto" padding="20px">
      <Heading
       as="h1"
@@ -25,9 +26,9 @@ function HomePage(){
                 </Flex>
       </Box>
       <Button bgColor="white" colorScheme="white"  boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px;"marginTop="20px" color="black" size="lg" w="610px">Sign Up with Google</Button>
-      <Text marginTop="20px">Free forever. No credit card required.</Text>
+      <Text color="#6C729C" marginTop="20px">Free forever. No credit card required.</Text>
       </div>
-      <Text marginTop="20px">JOIN OVER 20,000 HIGHLY PRODUCTIVE TEAMS</Text>
+      <Text marginTop="20px" color="#8B99AD">JOIN OVER 20,000 HIGHLY PRODUCTIVE TEAMS</Text>
       <Box maxW="800px" mx="auto" padding="20px" >
         <Flex>
             <Image
@@ -83,7 +84,9 @@ src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd
             
         </Flex>
       </Box>
+      <Text marginTop="40px" color="#8B99AD">SAY GOODBYE TO STATUS MEETINGS</Text>
         </div>
+       
         
       
         

@@ -44,10 +44,10 @@
   justify-content: space-around;
   border: 1px solid black;
   padding: 10px;
-  height: 70px;
+  height: 60px;
 }
 .main div{
-  border: 1px solid yellow;
+  
 
 }
 .box2{
@@ -55,20 +55,24 @@
   justify-content: space-around;
 }
 .box2 div{
-  margin-right: 12px;
+  margin-right: 10px;
   font-weight:600;
 }
 .box2 div select{
-  padding: 10px 3px 10px 3px;
+  padding: 10px 1px 10px 1px;
   font-weight: bold;
 }
 .demo{
   color: #00BAAB;
+  padding: 10px 0px 10px 0px;
+}
+.got{
+  padding: 10px 0px 10px 0px;
 }
 #logo{
   width: 80px;
   height: 70px;
-  border: 1px solid red;
+  
   margin-top: -15px;
 }
 .box3{
@@ -92,4 +96,18 @@
 .vd{
   background: linear-gradient(180deg,#f2f6fb,#fdf9f9);
   padding: 20px;
+}
+.modal{
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.utube{
+  border: 1px solid red;
+  margin-left: 300px;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+
 }

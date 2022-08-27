@@ -38,8 +38,8 @@ function Navbar() {
       
     </select>
     </div>
-    <div>Got Clients?</div>
-    <div>Pricing </div>
+    <div className="got">Got Clients?</div>
+    <div className="got">Pricing </div>
   
    <div className="demo">Get a Demo</div>
    
