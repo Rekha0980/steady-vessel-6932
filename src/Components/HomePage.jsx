@@ -1,6 +1,8 @@
-import { Box, Button, Heading,Input,Text,Flex, Spacer, Image } from "@chakra-ui/react"
+import { Box, Button, Heading,Input,Text,Flex, Spacer, Image,  } from "@chakra-ui/react"
+import Footer from "./Footer"
 import Navbar from "./Navbar"
 import VideoJS from "./Video"
+import Slider from"./Slider"
 
 function HomePage(){
     return(
@@ -25,7 +27,7 @@ function HomePage(){
             <Button  colorScheme='teal' size="lg">Get Started</Button>
                 </Flex>
       </Box>
-      <Button bgColor="white" colorScheme="white"  boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px;"marginTop="20px" color="black" size="lg" w="610px">Sign Up with Google</Button>
+      <Button bgColor="white" colorScheme="white"  boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px;"marginTop="20px" color="rgb(104,96,96)" size="lg" w="610px">Sign Up with Google</Button>
       <Text color="#6C729C" marginTop="20px">Free forever. No credit card required.</Text>
       </div>
       <Text marginTop="20px" color="#8B99AD">JOIN OVER 20,000 HIGHLY PRODUCTIVE TEAMS</Text>
@@ -84,9 +86,23 @@ src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd
             
         </Flex>
       </Box>
-      <Text marginTop="40px" color="#8B99AD">SAY GOODBYE TO STATUS MEETINGS</Text>
+      <Text marginTop="60px" color="#8B99AD">SAY GOODBYE TO STATUS MEETINGS</Text>
+      <div className="para">
+      <Box boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px" borderRadius="10px" w="70%" h="350px" margin="auto" padding="50px" marginTop="40px" backgroundImage="https://wallpapercave.com/wp/wp3477365.jpg">
+        <Text marginTop="40px"noOfLines={3} fontSize='26px' fontWeight="400" lineHeight="1.42"fontFamily="Volkhov,sans-serif" fontStyle="italic">  Nifty is by far the best productivity tool I've ever used.</Text>
+<Text  noOfLines={3} fontSize='26px' fontWeight="400" lineHeight="1.42"fontFamily="Volkhov,sans-serif" fontStyle="italic" >
+They have consolidated so many tools down to one for my team, without compromising the experience.</Text>
+<Box marginTop="50px">
+  <Text color="#6d7d96" fontWeight="bold" letterSpacing=".15em">RIM N. KAY</Text>
+  <Text color="#acbad0" letterSpacing=".15em" fontWeight="bold">ENGINEERING LEAD, EMOVIS</Text>
+</Box>
+      </Box>
+      <Text justifySelf="center" marginTop="40px"  color="#00BAAB" fontSize="18px">Read more Nifty reviews on G2</Text>
+      </div>
+     
+      <Footer/>
+    
         </div>
-       
         
       
         

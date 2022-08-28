@@ -46,10 +46,7 @@
   padding: 10px;
   height: 60px;
 }
-.main div{
-  
 
-}
 .box2{
   display: flex;
   justify-content: space-around;
@@ -96,6 +93,12 @@
 .vd{
   background: linear-gradient(180deg,#f2f6fb,#fdf9f9);
   padding: 20px;
+
+}
+.para{
+  background: linear-gradient(180deg,#f2f6fb,#fdf9f9);
+  padding: 40px 0px 60px 0px;
+  margin-top: 60px;
 }
 .modal{
   font-size: 40px;
@@ -104,10 +107,48 @@
   margin-bottom: 20px;
 }
 .utube{
-  border: 1px solid red;
+  border:1px solid lightgrey;
   margin-left: 300px;
   width: 50%;
   padding: 10px;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
+}
+
+.cont {
+  display: flex;
+ 
+  height: 400px;
+}
+.cont .box {
+  margin-right: 10px;
+  width: 200px;
+  text-align-last: left;
+  margin-left: 20px;
+}
+.cont .box h3{
+  margin-bottom: 17px;
+  font-family: sans-serif;
+  color:#00BAAB;
+  font-size: 11px;
+  letter-spacing: .2em;
+  font-weight: 500;
+  text-transform: uppercase;
+  
+}
+.cont .box p{
+  margin-bottom: 15px;
+  cursor: pointer;
+ 
+  
+  
+}
+.footertop{
+background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h0PSIxOTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggb3BhY2l0eT0iLjM1IiBkPSJNMCAxYzg5LjY5NiA3MS43NjMgMTY5LjY2NiAxMzEuNjggMjYyLjA2NCAxMzYuNDg3IDkyLjM5OCA0LjgwNyAxMzAuMjIxLTQwLjAwMiAxOTMuOTgxLTQwLjAwMiA2My43NiAwIDk0LjU1OSAyMC42MDIgMTE1LjA5MiA0MC4wMDJDNTkxLjY3IDE1Ni44ODcgNjMyLjczNiAxOTUgNzEwLjAwNCAxOTVzMTE1LjA5Mi00MC41MTcgMTM0LjU0NC01Ny41MTNDODY0IDEyMC40OSA5MTUuODcyIDg1LjEyNCA5ODguMjc4IDg1LjEyNGM3Mi40MDIgMCA5NC4wMjIgMTkuODQ0IDE2Mi42NDIgMTcuMzQgNjguNjItMi41MDUgOTIuOTQtMzIuOTYzIDE2NC4yNi0zMi45NjMgNzEuMzMgMCA1OC4zNiAyMy4zNDkgMTI0LjgyIDIzLjM0OSIgc3Ryb2tlPSJ1cmwoI2EpIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAiIHkxPSIxIiB4Mj0iMTQ0MCIgeTI9IjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjRkY1OUY4Ii8+PHN0b3Agb2Zmc2V0PSIuMTk4IiBzdG9wLWNvbG9yPSIjQUU3MkZGIi8+PHN0b3Agb2Zmc2V0PSIuNDA2IiBzdG9wLWNvbG9yPSIjNzBDOUU4Ii8+PHN0b3Agb2Zmc2V0PSIuNjIiIHN0b3AtY29sb3I9IiMwMUFCOUQiLz48c3RvcCBvZmZzZXQ9Ii44MjUiIHN0b3AtY29sb3I9IiNGRTAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48L3N2Zz4=);
+  height: 250px;
+}
+.logintop{
+  background-image: url(https://nifty.pm/static/media/waves-large@2x.0f45956af565d8c3dea9.png);
+   
 }

@@ -4,11 +4,13 @@ import Navbar from './Components/Navbar';
 import AllRoutes from './Components/AllRoutes';
 import ModalPage from './Components/Modal';
 import VideoJS from './Components/Video';
+import Footer from './Components/Footer';
 
 function App() {
   return (
     <div className="App">
      <AllRoutes/>
+     
     
   
     </div>

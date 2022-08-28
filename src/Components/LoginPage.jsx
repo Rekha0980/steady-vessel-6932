@@ -19,9 +19,10 @@ function LoginPage ()  {
   };
 
   return (
+    <div className="logintop">
     <>
     <Img   h="40px"mx="auto"src="https://nifty.pm/static/media/nifty-logo.622c3309bcffc8b8f40273706462925f.svg"/>
-    <Box h="550px" w="900px" mx="auto" border="1px solid red" marginTop="20px">
+    <Box h="550px" w="900px" mx="auto" border="1px solid lightgray" borderRadius="10px" marginTop="20px">
     <Flex>
         <Box maxW="lg" padding="30px" bgColor="#fcf9f7">
           <Box marginBottom="10px">
@@ -33,7 +34,7 @@ function LoginPage ()  {
           <Text >Powerful reporting to keep you on top of your business and workload. Customize your dashboard to gain insights and make informed decisions.</Text>
       <Img src="https://nifty.pm/static/media/main.9818dcc508e7ef1f7d96.png" marginTop="20px"/>
       </Box>
-    <Box maxW="lg" padding="30px">
+    <Box maxW="lg" padding="30px" backgroundColor="white" borderRadius="10px">
       <Text  marginBottom="10px"fontSize='xl'fontWeight="bold" >Log in to your account</Text>
     <FormControl isRequired>
     <FormLabel>Email Address</FormLabel>
@@ -48,7 +49,7 @@ function LoginPage ()  {
           <Input placeholder="Password" type="password" />
           <br />
           <br />
-          <Button bgColor="#00BAAB"  marginTop="10px" w="400px"onClick={handleSubmit}>
+          <Button bgColor="#00BAAB" color="white" marginTop="10px" w="400px"onClick={handleSubmit}>
             Log in
             {isLoading && <Spinner color="red.500" />}
           </Button>
@@ -68,6 +69,7 @@ function LoginPage ()  {
     </Box>
      
     </>
+    </div>
   );
 };
 

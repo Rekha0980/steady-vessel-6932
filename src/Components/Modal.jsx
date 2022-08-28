@@ -10,18 +10,16 @@ import {
     useDisclosure,
     Input,
     Img,
+    
   } from '@chakra-ui/react'
-import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+import {Navigate } from 'react-router-dom';
+
   
     function ModalPage() {
-      const navigate = useNavigate();
-      const handleSubmit = () => {
-
-        setTimeout(() => {
-          navigate("/");
-        }, 1500);
-        
-      };
+      const [email, setEmail] = useState("");
+     
+     
     const { isOpen, onOpen, onClose } = useDisclosure()
   
     return (
@@ -37,11 +35,11 @@ import { useNavigate } from 'react-router-dom';
             <ModalCloseButton />
             <ModalBody>
               <div className='modal'>Get started in less than 1 minute!</div>
-              <Input placeholder='name@company.com' />
+              <Input placeholder='name@company.com' value={email} onChange={e=>setEmail(e.target.value)} />
             </ModalBody>
   
             <ModalFooter>
-              <Button colorScheme='blue' mr={3} onClick={handleSubmit}>
+              <Button colorScheme='blue'  onClick={<Navigate to="/"/>}>
                 Get Started
               </Button>
           
